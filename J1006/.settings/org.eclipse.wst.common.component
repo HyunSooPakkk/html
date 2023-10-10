@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="J1006">
+            
+    
+    <wb-module deploy-name="J1006COOKIT">
+                        
+        
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="J1006"/>
-        <property name="java-output-path" value="/J1006/build/classes"/>
+                        
+        
+        <property name="java-output-path" value="/J1006COOKIT/build/classes"/>
+        <property name="context-root" value="J1006COOKIT"/>
+                    
+    
     </wb-module>
+        
+
 </project-modules>

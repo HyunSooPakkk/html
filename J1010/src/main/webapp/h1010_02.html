@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>변형(이동translate)</title>
+		<style>
+			*{margin:0; padding:0;}
+			img{width:300px;}
+			.move:hover{transform: translate(200px,50px);}
+			.zoom:hover{transform: scale(1.7);}
+			.rot:hover{transform: rotate(50deg);}
+			.origin{perspective:180px;}
+			.rot2{transition-property: all; transition-duration: 1s;}
+			.rot2:hover{transform: rotate3d(0,2.5,0,360deg);}
+			.skew:hover{transform: skewX(40deg);}
+			.move,.zoom, .rot, .rot2, .skew{margin:100px auto; width:300px;}
+		</style>	
+	</head>
+	<body>
+		<div class="move"><img src="images/h1.png"></div>
+		<div class="zoom"><img src="images/h1.png"></div>
+		<div class="rot"><img src="images/h1.png"></div>
+		<div class="origin">
+			<div class="rot2"><img src="images/h1.png"></div>
+		</div>
+		<div class="skew"><img src="images/h1.png"></div>
+	</body>
+</html>
