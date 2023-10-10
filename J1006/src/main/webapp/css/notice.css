@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 주석 : content영역 - notice */
+
 #sect{height:2000px;}
 #tit{text-align: left; border-bottom:4px solid #202020; padding-bottom:36px;}	
 .f_search{margin-top:56px; width:1180px; height:180px;}
